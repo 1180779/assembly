@@ -1,0 +1,4 @@
+    .MODEL FLAT
+
+    .CODE
+
