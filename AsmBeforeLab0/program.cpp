@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "gcd.hpp"
+#include "bitmanip.hpp"
 
 int main() 
 {
