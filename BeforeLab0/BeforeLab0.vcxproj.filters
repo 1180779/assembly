@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\gcd">
+      <UniqueIdentifier>{18c86542-9c48-496b-b3cc-38c0c5236579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\stringBigSmall">
+      <UniqueIdentifier>{f51f5ada-6e99-4c98-8c9a-6806824191dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\intArray">
+      <UniqueIdentifier>{355d7acd-2891-4151-90ba-5b3ab0b593c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\bitmanip">
+      <UniqueIdentifier>{88a82c5e-4109-4dd7-96f0-91de2a03dd57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmanip.hpp">
+      <Filter>source\bitmanip</Filter>
+    </ClInclude>
+    <ClInclude Include="gcd.hpp">
+      <Filter>source\gcd</Filter>
+    </ClInclude>
+    <ClInclude Include="stringBigSmall.hpp">
+      <Filter>source\stringBigSmall</Filter>
+    </ClInclude>
+    <ClInclude Include="intarrays.hpp">
+      <Filter>source\intArray</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bitrev_asm.asm">
+      <Filter>source\bitmanip</Filter>
+    </None>
+    <None Include="bitrev_asm2.asm">
+      <Filter>source\bitmanip</Filter>
+    </None>
+    <None Include="gcda.asm">
+      <Filter>source\gcd</Filter>
+    </None>
+    <None Include="gcdea.asm">
+      <Filter>source\gcd</Filter>
+    </None>
+    <None Include="stringa.asm">
+      <Filter>source\stringBigSmall</Filter>
+    </None>
+    <None Include="arrayabssumasm.asm">
+      <Filter>source\intArray</Filter>
+    </None>
+    <None Include="arraysumasm.asm">
+      <Filter>source\intArray</Filter>
+    </None>
+    <None Include="insertionsortasm.asm">
+      <Filter>source\intArray</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmanip.cpp">
+      <Filter>source\bitmanip</Filter>
+    </ClCompile>
+    <ClCompile Include="gcd.cpp">
+      <Filter>source\gcd</Filter>
+    </ClCompile>
+    <ClCompile Include="stringBIgSmall.cpp">
+      <Filter>source\stringBigSmall</Filter>
+    </ClCompile>
+    <ClCompile Include="intarrays.cpp">
+      <Filter>source\intArray</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
