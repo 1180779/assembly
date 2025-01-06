@@ -49,29 +49,85 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="bitrev_asm.asm">
+    <CustomBuild Include="arraysumasm.asm" />
+    <CustomBuild Include="bitrev_asm.asm" />
+    <CustomBuild Include="bitrev_asm2.asm" />
+    <CustomBuild Include="gcda.asm" />
+    <CustomBuild Include="gcdea.asm" />
+    <CustomBuild Include="insertionsortasm.asm" />
+    <CustomBuild Include="stringa.asm" />
+    <CustomBuild Include="arraysumasm.asm" />
+    <CustomBuild Include="bitrev_asm.asm" />
+    <CustomBuild Include="bitrev_asm2.asm" />
+    <CustomBuild Include="gcda.asm" />
+    <CustomBuild Include="gcdea.asm" />
+    <CustomBuild Include="insertionsortasm.asm" />
+    <CustomBuild Include="stringa.asm" />
+    <CustomBuild Include="arraysumasm.asm" />
+    <CustomBuild Include="bitrev_asm.asm" />
+    <CustomBuild Include="bitrev_asm2.asm" />
+    <CustomBuild Include="gcda.asm" />
+    <CustomBuild Include="gcdea.asm" />
+    <CustomBuild Include="insertionsortasm.asm" />
+    <CustomBuild Include="stringa.asm" />
+    <CustomBuild Include="arraysumasm.asm" />
+    <CustomBuild Include="bitrev_asm.asm" />
+    <CustomBuild Include="bitrev_asm2.asm" />
+    <CustomBuild Include="gcda.asm" />
+    <CustomBuild Include="gcdea.asm" />
+    <CustomBuild Include="insertionsortasm.asm" />
+    <CustomBuild Include="stringa.asm" />
+    <CustomBuild Include="arraysumasm.asm" />
+    <CustomBuild Include="bitrev_asm.asm" />
+    <CustomBuild Include="bitrev_asm2.asm" />
+    <CustomBuild Include="gcda.asm" />
+    <CustomBuild Include="gcdea.asm" />
+    <CustomBuild Include="insertionsortasm.asm" />
+    <CustomBuild Include="stringa.asm" />
+    <CustomBuild Include="arraysumasm.asm" />
+    <CustomBuild Include="bitrev_asm.asm" />
+    <CustomBuild Include="bitrev_asm2.asm" />
+    <CustomBuild Include="gcda.asm" />
+    <CustomBuild Include="gcdea.asm" />
+    <CustomBuild Include="insertionsortasm.asm" />
+    <CustomBuild Include="stringa.asm" />
+    <CustomBuild Include="arraysumasm.asm" />
+    <CustomBuild Include="bitrev_asm.asm" />
+    <CustomBuild Include="bitrev_asm2.asm" />
+    <CustomBuild Include="gcda.asm" />
+    <CustomBuild Include="gcdea.asm" />
+    <CustomBuild Include="insertionsortasm.asm" />
+    <CustomBuild Include="stringa.asm" />
+    <CustomBuild Include="arraysumasm.asm" />
+    <CustomBuild Include="bitrev_asm.asm" />
+    <CustomBuild Include="bitrev_asm2.asm" />
+    <CustomBuild Include="gcda.asm" />
+    <CustomBuild Include="gcdea.asm" />
+    <CustomBuild Include="insertionsortasm.asm" />
+    <CustomBuild Include="stringa.asm" />
+    <CustomBuild Include="*.asm">
+      <Filter>source\intArrays</Filter>
+    </CustomBuild>
+    <CustomBuild Include="*.asm">
+      <Filter>source\intArrays</Filter>
+    </CustomBuild>
+    <CustomBuild Include="*.asm">
       <Filter>source\bitManip</Filter>
-    </None>
-    <None Include="bitrev_asm2.asm">
+    </CustomBuild>
+    <CustomBuild Include="*.asm">
       <Filter>source\bitManip</Filter>
-    </None>
-    <None Include="gcda.asm">
+    </CustomBuild>
+    <CustomBuild Include="*.asm">
       <Filter>source\gcd</Filter>
-    </None>
-    <None Include="gcdea.asm">
+    </CustomBuild>
+    <CustomBuild Include="*.asm">
       <Filter>source\gcd</Filter>
-    </None>
-    <None Include="arrayabssumasm.asm">
+    </CustomBuild>
+    <CustomBuild Include="*.asm">
       <Filter>source\intArrays</Filter>
-    </None>
-    <None Include="arraysumasm.asm">
-      <Filter>source\intArrays</Filter>
-    </None>
-    <None Include="insertionsortasm.asm">
-      <Filter>source\intArrays</Filter>
-    </None>
-    <None Include="stringa.asm">
+    </CustomBuild>
+    <CustomBuild Include="*.asm">
       <Filter>source\stringBigSmall</Filter>
-    </None>
+    </CustomBuild>
   </ItemGroup>
 </Project>
