@@ -2,132 +2,26 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="source">
-      <UniqueIdentifier>{6403b17d-45b7-49af-84a3-20918c35e54a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\stringBigSmall">
-      <UniqueIdentifier>{a6574231-4db3-4c86-ba2d-05e892f0228a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\bitManip">
-      <UniqueIdentifier>{a3da2647-1edf-4529-a6ac-4adbb84662fa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\gcd">
-      <UniqueIdentifier>{e8c66a23-78e5-47fa-8ac8-66c4ed9a74d4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\intArrays">
-      <UniqueIdentifier>{ef1e72ec-43b4-497d-aa66-89ef3a955d5e}</UniqueIdentifier>
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="program.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="bitmanip.cpp">
-      <Filter>source\bitManip</Filter>
-    </ClCompile>
-    <ClCompile Include="gcd.cpp">
-      <Filter>source\gcd</Filter>
-    </ClCompile>
-    <ClCompile Include="intarrays.cpp">
-      <Filter>source\intArrays</Filter>
-    </ClCompile>
-    <ClCompile Include="stringBIgSmall.cpp">
-      <Filter>source\stringBigSmall</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bitmanip.hpp">
-      <Filter>source\bitManip</Filter>
-    </ClInclude>
-    <ClInclude Include="gcd.hpp">
-      <Filter>source\gcd</Filter>
-    </ClInclude>
-    <ClInclude Include="intarrays.hpp">
-      <Filter>source\intArrays</Filter>
-    </ClInclude>
-    <ClInclude Include="stringBigSmall.hpp">
-      <Filter>source\stringBigSmall</Filter>
-    </ClInclude>
+    <None Include="matrix_symmetry.asm">
+      <Filter>source</Filter>
+    </None>
+    <None Include="max_row_sum.asm">
+      <Filter>source</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="arraysumasm.asm" />
-    <CustomBuild Include="bitrev_asm.asm" />
-    <CustomBuild Include="bitrev_asm2.asm" />
-    <CustomBuild Include="gcda.asm" />
-    <CustomBuild Include="gcdea.asm" />
-    <CustomBuild Include="insertionsortasm.asm" />
-    <CustomBuild Include="stringa.asm" />
-    <CustomBuild Include="arraysumasm.asm" />
-    <CustomBuild Include="bitrev_asm.asm" />
-    <CustomBuild Include="bitrev_asm2.asm" />
-    <CustomBuild Include="gcda.asm" />
-    <CustomBuild Include="gcdea.asm" />
-    <CustomBuild Include="insertionsortasm.asm" />
-    <CustomBuild Include="stringa.asm" />
-    <CustomBuild Include="arraysumasm.asm" />
-    <CustomBuild Include="bitrev_asm.asm" />
-    <CustomBuild Include="bitrev_asm2.asm" />
-    <CustomBuild Include="gcda.asm" />
-    <CustomBuild Include="gcdea.asm" />
-    <CustomBuild Include="insertionsortasm.asm" />
-    <CustomBuild Include="stringa.asm" />
-    <CustomBuild Include="arraysumasm.asm" />
-    <CustomBuild Include="bitrev_asm.asm" />
-    <CustomBuild Include="bitrev_asm2.asm" />
-    <CustomBuild Include="gcda.asm" />
-    <CustomBuild Include="gcdea.asm" />
-    <CustomBuild Include="insertionsortasm.asm" />
-    <CustomBuild Include="stringa.asm" />
-    <CustomBuild Include="arraysumasm.asm" />
-    <CustomBuild Include="bitrev_asm.asm" />
-    <CustomBuild Include="bitrev_asm2.asm" />
-    <CustomBuild Include="gcda.asm" />
-    <CustomBuild Include="gcdea.asm" />
-    <CustomBuild Include="insertionsortasm.asm" />
-    <CustomBuild Include="stringa.asm" />
-    <CustomBuild Include="arraysumasm.asm" />
-    <CustomBuild Include="bitrev_asm.asm" />
-    <CustomBuild Include="bitrev_asm2.asm" />
-    <CustomBuild Include="gcda.asm" />
-    <CustomBuild Include="gcdea.asm" />
-    <CustomBuild Include="insertionsortasm.asm" />
-    <CustomBuild Include="stringa.asm" />
-    <CustomBuild Include="arraysumasm.asm" />
-    <CustomBuild Include="bitrev_asm.asm" />
-    <CustomBuild Include="bitrev_asm2.asm" />
-    <CustomBuild Include="gcda.asm" />
-    <CustomBuild Include="gcdea.asm" />
-    <CustomBuild Include="insertionsortasm.asm" />
-    <CustomBuild Include="stringa.asm" />
-    <CustomBuild Include="arraysumasm.asm" />
-    <CustomBuild Include="bitrev_asm.asm" />
-    <CustomBuild Include="bitrev_asm2.asm" />
-    <CustomBuild Include="gcda.asm" />
-    <CustomBuild Include="gcdea.asm" />
-    <CustomBuild Include="insertionsortasm.asm" />
-    <CustomBuild Include="stringa.asm" />
-    <CustomBuild Include="*.asm">
-      <Filter>source\intArrays</Filter>
-    </CustomBuild>
-    <CustomBuild Include="*.asm">
-      <Filter>source\intArrays</Filter>
-    </CustomBuild>
-    <CustomBuild Include="*.asm">
-      <Filter>source\bitManip</Filter>
-    </CustomBuild>
-    <CustomBuild Include="*.asm">
-      <Filter>source\bitManip</Filter>
-    </CustomBuild>
-    <CustomBuild Include="*.asm">
-      <Filter>source\gcd</Filter>
-    </CustomBuild>
-    <CustomBuild Include="*.asm">
-      <Filter>source\gcd</Filter>
-    </CustomBuild>
-    <CustomBuild Include="*.asm">
-      <Filter>source\intArrays</Filter>
-    </CustomBuild>
-    <CustomBuild Include="*.asm">
-      <Filter>source\stringBigSmall</Filter>
-    </CustomBuild>
+    <ClInclude Include="twodimarrays.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
