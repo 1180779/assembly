@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{6403b17d-45b7-49af-84a3-20918c35e54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\stringBigSmall">
+      <UniqueIdentifier>{a6574231-4db3-4c86-ba2d-05e892f0228a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\bitManip">
+      <UniqueIdentifier>{a3da2647-1edf-4529-a6ac-4adbb84662fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\gcd">
+      <UniqueIdentifier>{e8c66a23-78e5-47fa-8ac8-66c4ed9a74d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\intArrays">
+      <UniqueIdentifier>{ef1e72ec-43b4-497d-aa66-89ef3a955d5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="program.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmanip.cpp">
+      <Filter>source\bitManip</Filter>
+    </ClCompile>
+    <ClCompile Include="gcd.cpp">
+      <Filter>source\gcd</Filter>
+    </ClCompile>
+    <ClCompile Include="intarrays.cpp">
+      <Filter>source\intArrays</Filter>
+    </ClCompile>
+    <ClCompile Include="stringBIgSmall.cpp">
+      <Filter>source\stringBigSmall</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmanip.hpp">
+      <Filter>source\bitManip</Filter>
+    </ClInclude>
+    <ClInclude Include="gcd.hpp">
+      <Filter>source\gcd</Filter>
+    </ClInclude>
+    <ClInclude Include="intarrays.hpp">
+      <Filter>source\intArrays</Filter>
+    </ClInclude>
+    <ClInclude Include="stringBigSmall.hpp">
+      <Filter>source\stringBigSmall</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bitrev_asm.asm">
+      <Filter>source\bitManip</Filter>
+    </None>
+    <None Include="bitrev_asm2.asm">
+      <Filter>source\bitManip</Filter>
+    </None>
+    <None Include="gcda.asm">
+      <Filter>source\gcd</Filter>
+    </None>
+    <None Include="gcdea.asm">
+      <Filter>source\gcd</Filter>
+    </None>
+    <None Include="arrayabssumasm.asm">
+      <Filter>source\intArrays</Filter>
+    </None>
+    <None Include="arraysumasm.asm">
+      <Filter>source\intArrays</Filter>
+    </None>
+    <None Include="insertionsortasm.asm">
+      <Filter>source\intArrays</Filter>
+    </None>
+    <None Include="stringa.asm">
+      <Filter>source\stringBigSmall</Filter>
+    </None>
+  </ItemGroup>
+</Project>

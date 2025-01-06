@@ -1,0 +1,12 @@
+<ItemGroup>
+    <CustomBuild Include="*.asm">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ML /Fo "$(OutDir)%(Filename).obj" /c /Zi "%(Filename).asm"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ML /Fo "$(OutDir)%(Filename).obj" /c "%(Filename).asm"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ML64 /Fo "$(OutDir)%(Filename).obj" /c /Zi "%(Filename).asm"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)%(Filename).obj</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ML64 /Fo "$(OutDir)%(Filename).obj" /c "%(Filename).asm"</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)%(Filename).obj</Outputs>
+    </CustomBuild>
+  </ItemGroup>
